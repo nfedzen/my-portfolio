@@ -1,6 +1,6 @@
 /* eslint-disable jsx-a11y/img-redundant-alt */
 import React from "react"
-import image from "../Leaf-Village.jpg"
+import image from "../background2.jpg"
 
 export default function Home(){
   return (
@@ -12,8 +12,9 @@ export default function Home(){
       />
 
       <section className="relative flex justify-center min-h-screen pt-12 lg:pt-64 px-8">
-        <h1 className="text-6xl text-green-100 font-bold cursive leading-none lg:leading-snug home-name">Hello! I'm Nathan.</h1>
+        <h1 className="text-6xl text-gray-300 font-bold cursive leading-none lg:leading-snug home-name">Hello! I'm Nathan.</h1>
       </section>
+      
     </main>
   )
 }
